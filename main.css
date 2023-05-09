@@ -1,9 +1,8 @@
 *{
     box-sizing: border-box;
-font-family: 'Jost', sans-serif;
 font-weight: 400;
 }
-/* font-family: 'DM Serif Display', serif; - ДОП СТАІЛ */
+
 .container{
     width: 1200px;
     margin: 0 auto;
