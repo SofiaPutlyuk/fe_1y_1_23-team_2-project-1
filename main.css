@@ -4,8 +4,11 @@
 .container{
     width: 1200px;
     margin: 0 auto;
-    margin-top: 50px;
+}
 
+.header_con{
+    margin-top: 50px;   
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
