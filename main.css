@@ -4,38 +4,4 @@
 .container{
     width: 1200px;
     margin: 0 auto;
-    margin-top: 50px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.nav{
-    display: flex;
-    align-items: center;
-}
-
-.ol{
-    display: flex;
-    flex-direction: row;
-}
-
-.li{
-    width: 125px;
-
-    display: flex;
-    justify-content: flex-end;
-    
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 30px;
-
-    color: #292F36;
-}
-
-.li:hover{
-    color: #CDA274;
 }
