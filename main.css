@@ -4,7 +4,9 @@ html{
 }
 *{
     box-sizing: border-box;
+font-weight: 400;
 }
+
 .container{
     width: 1200px;
     margin: 0 auto;
@@ -42,4 +44,25 @@ html{
 
 .li:hover{
     color: #CDA274;
+}
+
+/* footer */
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+footer ul h3{
+    font-family: "DM Serif Display" , serif;
+    font-size: 25px;
+    line-height: 37.5px;
+    letter-spacing: 0.22px;
+}
+footer ul li{
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    margin-top: 30px;
+}
+footer ul li:nth-child(2){
+    margin-top: 21px;
 }
