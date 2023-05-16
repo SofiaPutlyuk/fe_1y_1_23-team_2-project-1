@@ -1,4 +1,13 @@
-.button-dark {
+html{
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+}
+*{
+    box-sizing: border-box;
+font-weight: 400;
+}
+ 
+ .button-dark {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,19 +76,13 @@ align-items: center;
     }
     
 .group2 {
-   margin-left: 27px;
+   margin-left: 27px; 
 }
-*{
-    box-sizing: border-box;
-}
+
 .container{
     width: 1200px;
     margin: 0 auto;
-    margin-top: 50px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+   
 }
 
 .nav{
@@ -109,4 +112,25 @@ align-items: center;
 
 .li:hover{
     color: #CDA274;
+}
+
+/* footer */
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+footer ul h3{
+    font-family: "DM Serif Display" , serif;
+    font-size: 25px;
+    line-height: 37.5px;
+    letter-spacing: 0.22px;
+}
+footer ul li{
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    margin-top: 30px;
+}
+footer ul li:nth-child(2){
+    margin-top: 21px;
 }
