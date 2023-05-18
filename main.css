@@ -85,8 +85,15 @@ html {
 
 .container {
     width: 1200px;
-    margin: 0 auto ;
+    margin: 0 auto;
+}
 
+.header-con{
+    margin-top: 50px;   
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .nav {
