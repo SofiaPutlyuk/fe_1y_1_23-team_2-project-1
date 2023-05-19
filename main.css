@@ -165,8 +165,9 @@ padding-top: 100px;
     width: 290px;
 }
 .feedbacks-card__div{
+    width: 240px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
 }
 .feedbacks-card-h3 {
     font-family: 'DM Serif Display';
