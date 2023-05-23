@@ -153,7 +153,7 @@ footer ul li:nth-child(2){
     align-items: center;
 }
 
-.block-shadow{
+.block-services{
     width: 299px;
 
     display: flex;
@@ -161,7 +161,7 @@ footer ul li:nth-child(2){
     flex-direction: column;
 }
 
-.text-h3{
+.services-title{
     font-family: 'DM Serif Display', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -172,7 +172,7 @@ footer ul li:nth-child(2){
     color: #292F36;
 }
 
-.text-p{
+.services-text{
     padding-top: 17px;
     padding-bottom: 68px;
 
@@ -186,7 +186,7 @@ footer ul li:nth-child(2){
     color: #4D5053;
 }
 
-.text-a{
+.services-link{
     text-decoration: none;
     font-family: 'Jost', sans-serif;
     font-style: normal;
