@@ -88,8 +88,8 @@ html {
     margin: 0 auto;
 }
 
-.header-con{
-    margin-top: 50px;   
+.header-con {
+    margin-top: 50px;
 
     display: flex;
     flex-direction: row;
@@ -134,16 +134,20 @@ html {
     align-items: center;
     margin-top: 140px;
 }
-.feedbacks-h3{
-    font-family: "DM Serif Display";
-font-size: 45px;
-font-weight: 400;
-line-height: 60px;
-letter-spacing: 0.22px;
-display: flex;
-text-align: center;
-padding-top: 100px;
+
+.feedbacks-thinks {
+    font-family: 'DM Serif Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    display: flex;
+    text-align: center;
+    padding-top: 100px;
 }
+
 .container-feedbacks-cards {
     width: 1100px;
     display: flex;
@@ -154,22 +158,25 @@ padding-top: 100px;
 
 .feedbacks-card {
     width: 355px;
-    padding:  50px 0;
+    padding: 50px 0;
     background: #FFFFFF;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.feedbacks-card-items{
+
+.feedbacks-card-items {
     width: 290px;
 }
-.feedbacks-card__div{
+
+.feedbacks-card-main {
     width: 240px;
-        display: flex;
-        justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
-.feedbacks-card-h3 {
+
+.feedbacks-card-name {
     font-family: 'DM Serif Display';
     font-size: 24px;
     font-weight: 400;
@@ -177,10 +184,24 @@ padding-top: 100px;
     letter-spacing: 0.22px;
 }
 
-.feedbacks-card-p {
+.feedbacks-card-town {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+
+}
+
+.feedbacks-card-coment {
     display: block;
     width: 275px;
     margin-top: 25px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
 }
 
 /* footer */
