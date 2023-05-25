@@ -126,7 +126,7 @@ footer .container{
     display: flex;
     justify-content: space-between;
 }
-footer ul h3{
+.footer-filter{
     font-family: "DM Serif Display" , serif;
     font-size: 25px;
     line-height: 37.5px;
