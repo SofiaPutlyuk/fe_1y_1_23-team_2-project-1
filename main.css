@@ -143,13 +143,13 @@ footer ul li:nth-child(2){
 }
 
 /* service */
-.big-block-shadow{
+.services-section{
     padding-top: 175px;
     padding-bottom: 203px;
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
