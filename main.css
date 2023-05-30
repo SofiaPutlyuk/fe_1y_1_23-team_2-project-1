@@ -1,13 +1,14 @@
-html{
+html {
     font-family: "Jost", sans-serif;
     font-size: 22px;
 }
-*{
+
+* {
     box-sizing: border-box;
-font-weight: 400;
+    font-weight: 400;
 }
- 
- .button-dark {
+
+.button-dark {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,9 +16,9 @@ font-weight: 400;
     height: 71px;
     margin-left: 120px;
     margin-top: 35px;
-    background-color:  #292F36;
+    background-color: #292F36;
     border-radius: 18px;
-  
+
     color: #ffffff;
     font-family: Jost;
     font-size: 18px;
@@ -26,8 +27,9 @@ font-weight: 400;
     letter-spacing: 0.7200000286102295px;
     text-align: left;
     padding-left: 34px;
-   
+
 }
+
 .group1 {
     margin-left: 21px;
 }
@@ -43,71 +45,73 @@ font-weight: 400;
     margin-top: 35px;
     border: none;
 }
+
 .arrow {
-height: 13.371439933776855px;
-width: 5.942860126495361px;
+    height: 13.371439933776855px;
+    width: 5.942860126495361px;
 
 }
+
 .button-light {
     display: flex;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
     width: 241px;
     height: 71px;
     background: #CDA274;
     margin-left: 120px;
     margin-top: 35px;
-    border-radius: 2px solid ;
+    border-radius: 2px solid;
     border: none;
     box-shadow: 1px 0px 18px 0px #00000033;
     border-radius: 18px;
-    
-        
-        color: white;
-        margin-right: 34px;
-        margin-top: 21px;
-        font-family: Jost;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 27px;
-        letter-spacing: 0.2199999988079071px;
-        text-align: center;
-    
-    }
-    
-.group2 {
-   margin-left: 27px; 
+
+
+    color: white;
+    margin-right: 34px;
+    margin-top: 21px;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.2199999988079071px;
+    text-align: center;
+
 }
 
-.container{
+.group2 {
+    margin-left: 27px;
+}
+
+.container {
     width: 1200px;
     margin: 0 auto;
 }
 
-.header-con{
-    margin-top: 50px;   
+.header-con {
+    margin-top: 50px;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.nav{
+.nav {
     display: flex;
     align-items: center;
 }
 
-.ol{
+.ol {
     display: flex;
     flex-direction: row;
 }
 
-.li{
+.li {
     width: 125px;
 
     display: flex;
     justify-content: flex-end;
-    
+
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
@@ -117,28 +121,111 @@ align-items: center;
     color: #292F36;
 }
 
-.li:hover{
+.li:hover {
     color: #CDA274;
 }
 
+/* feedbacks */
+.container-feedbacks {
+    background: #F4F0EC;
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.feedbacks-thinks {
+    font-family: 'DM Serif Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container-feedbacks-cards {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+.feedbacks-card {
+    width: 355px;
+    padding: 50px 0;
+    background: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedbacks-card-items {
+    padding-left: 36px;
+}
+
+.feedbacks-card-main {
+    display: flex;
+}
+
+.feedbacks-card-name {
+    font-family: 'DM Serif Display';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.feedbacks-card-town {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.feedbacks-card-town,
+.feedbacks-card-name {
+    margin-left: 20px;
+}
+
+.feedbacks-card-coment {
+    display: block;
+    width: 256px;
+    margin-top: 25px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
 /* footer */
-footer .container{
+footer .container {
     display: flex;
     justify-content: space-between;
 }
-.footer-filter{
-    font-family: "DM Serif Display" , serif;
+
+.footer-filter {
+    font-family: "DM Serif Display", serif;
     font-size: 25px;
     line-height: 37.5px;
     letter-spacing: 0.22px;
 }
-footer ul li{
+
+footer ul li {
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0.22px;
     margin-top: 30px;
 }
-footer ul li:nth-child(2){
+
+footer ul li:nth-child(2) {
     margin-top: 21px;
 }
 
