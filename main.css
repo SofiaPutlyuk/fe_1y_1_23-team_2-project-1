@@ -162,7 +162,6 @@ html {
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .feedbacks-card-items {
@@ -170,7 +169,6 @@ html {
 }
 
 .feedbacks-card-main {
-    width: 240px;
     display: flex;
 }
 
@@ -198,7 +196,7 @@ html {
 
 .feedbacks-card-coment {
     display: block;
-    width: 275px;
+    width: 256px;
     margin-top: 25px;
     font-style: normal;
     font-size: 20px;
