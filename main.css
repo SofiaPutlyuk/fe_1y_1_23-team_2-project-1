@@ -145,20 +145,20 @@ html {
     line-height: 65px;
     letter-spacing: 0.22px;
     color: #292F36;
-
+    margin-top: 40px;
 }
 
 .info-text {
-    display: block;
-    width: 530px;
     line-height: 33px;
     letter-spacing: 0.22px;
     color: #4D5053;
+    margin-top: 42px;
 }
 
 .info-contacts {
     display: flex;
     align-items: center;
+    margin-top: 40px;
 }
 
 .info-tel {
@@ -183,26 +183,13 @@ html {
 .info-button {
     width: 260px;
     height: 71px;
-    background: #292F36;
-    border: 2px solid #292F36;
-    border-radius: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    line-height: 27px;
-    letter-spacing: 0.72px;
-    color: #FFFFFF;
+    margin: 50px 0;
+    padding: 0;
 }
-.info-button-arrow{
-    margin-left:16px;
+.info-button-arrow {
+    margin-left: 16px;
 }
-/* 
-.img-info {
-    height: 635px;
-    width: 600px; 
-     padding-left: 77px;
-} */
+
 
 /* footer */
 footer .container {
