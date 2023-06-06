@@ -217,7 +217,6 @@ html {
 .info-text-section {
     width: 530px;
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
 }
 
