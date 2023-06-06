@@ -82,21 +82,24 @@ html {
 .group2 {
     margin-left: 27px;
 }
+
 .wrapper {
     display: flex;
- 
+
     height: 475px;
-   
-   margin-top: 120px;
+
+    margin-top: 120px;
     background-image: url("grt2/Rectangle (5).png");
-  }
-  .twelve {
+}
+
+.twelve {
     display: flex;
     align-items: center;
     margin-left: 214px;
     margin-top: 154px;
-  }
-  .text1 {
+}
+
+.text1 {
     display: flex;
     margin-left: 153px;
     padding-top: 10px;
@@ -107,16 +110,19 @@ html {
     letter-spacing: 0.2199999988079071px;
     text-align: center;
     color: #4d5053;
-  }
-  .dash1 {
+}
+
+.dash1 {
     margin-top: 140px;
     margin-left: 116px;
-  }
-  .five {
+}
+
+.five {
     margin-top: 154px;
     margin-left: 96px;
-  }
-  .text2 {
+}
+
+.text2 {
     margin-left: 72px;
     padding-top: 10px;
     height: 33px;
@@ -130,12 +136,14 @@ html {
     letter-spacing: 0.2199999988079071px;
     text-align: center;
     color: #4d5053;
-  }
-  .one {
+}
+
+.one {
     margin-top: 154px;
     margin-left: 104px;
-  }
-  .text3 {
+}
+
+.text3 {
     margin-left: 80px;
     padding-top: 10px;
     height: 33px;
@@ -147,12 +155,14 @@ html {
     letter-spacing: 0.2199999988079071px;
     text-align: center;
     color: #4d5053;
-  }
-  .four {
+}
+
+.four {
     margin-top: 154px;
     margin-left: 96px;
-  }
-  .text4 {
+}
+
+.text4 {
     margin-left: 62px;
     padding-top: 10px;
     font-family: Jost;
@@ -162,8 +172,8 @@ html {
     letter-spacing: 0.2199999988079071px;
     text-align: center;
     color: #4d5053;
-  }
-  
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -286,6 +296,59 @@ html {
     color: #4D5053;
 }
 
+/* project */
+.project {
+    flex-direction: column;
+    margin-top: 110px;
+}
+
+.project-main-text {
+    font-family: 'DM Serif Display';
+    font-size: 47px;
+    line-height: 62px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.project-text {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.project-card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    padding-bottom: 80px;
+}
+
+.project-card {
+    width: 590px;
+}
+
+.project-card:nth-child(n+3) {
+    margin-top: 60px;
+}
+
+.project-card-menu {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.project-card-name {
+    font-family: 'DM Serif Display';
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+.project-button{
+    margin: 0;
+    background: #F4F0EC;
+}
 /* footer */
 footer .container {
     display: flex;
@@ -309,17 +372,18 @@ footer ul li {
 footer ul li:nth-child(2) {
     margin-top: 21px;
 }
+
 .container {
     display: flex;
     width: 1200px;
     align-items: center;
-   justify-content: space-between;
-   
-    
- }
+    justify-content: space-between;
+
+
+}
 
 /* service */
-.services-section{
+.services-section {
     padding-top: 175px;
     padding-bottom: 203px;
 
@@ -329,7 +393,7 @@ footer ul li:nth-child(2) {
     align-items: center;
 }
 
-.block-services{
+.block-services {
     width: 299px;
 
     display: flex;
@@ -337,7 +401,7 @@ footer ul li:nth-child(2) {
     flex-direction: column;
 }
 
-.services-title{
+.services-title {
     font-family: 'DM Serif Display', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -348,7 +412,7 @@ footer ul li:nth-child(2) {
     color: #292F36;
 }
 
-.services-text{
+.services-text {
     padding-top: 17px;
     padding-bottom: 68px;
 
@@ -362,7 +426,7 @@ footer ul li:nth-child(2) {
     color: #4D5053;
 }
 
-.services-link{
+.services-link {
     text-decoration: none;
     font-family: 'Jost', sans-serif;
     font-style: normal;
@@ -374,12 +438,12 @@ footer ul li:nth-child(2) {
     color: #4D5053;
 }
 
-.block-img{
+.block-img {
     width: 10px;
 }
 
 /* service */
-.services-section{
+.services-section {
     padding-top: 175px;
     padding-bottom: 203px;
 
@@ -389,7 +453,7 @@ footer ul li:nth-child(2) {
     align-items: center;
 }
 
-.block-services{
+.block-services {
     width: 299px;
 
     display: flex;
@@ -397,7 +461,7 @@ footer ul li:nth-child(2) {
     flex-direction: column;
 }
 
-.services-title{
+.services-title {
     font-family: 'DM Serif Display', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -408,7 +472,7 @@ footer ul li:nth-child(2) {
     color: #292F36;
 }
 
-.services-text{
+.services-text {
     padding-top: 17px;
     padding-bottom: 68px;
 
@@ -422,7 +486,7 @@ footer ul li:nth-child(2) {
     color: #4D5053;
 }
 
-.services-link{
+.services-link {
     text-decoration: none;
     font-family: 'Jost', sans-serif;
     font-style: normal;
@@ -434,6 +498,6 @@ footer ul li:nth-child(2) {
     color: #4D5053;
 }
 
-.block-img{
+.block-img {
     width: 10px;
 }
