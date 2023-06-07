@@ -82,6 +82,7 @@ html {
 .group2 {
     margin-left: 27px;
 }
+
 .wrapper {
     display: flex;
     justify-content: space-between;
@@ -235,6 +236,71 @@ html {
 .li:hover {
     color: #CDA274;
 }
+
+/* info */
+.container-info {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.info-text-section {
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-main-text {
+    font-family: 'DM Serif Display';
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-top: 40px;
+}
+
+.info-text {
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-top: 42px;
+}
+
+.info-contacts {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.info-tel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: #F4F0EC;
+    border-radius: 50%;
+    border: 0;
+}
+
+.info-contacts-item {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-left: 20px;
+}
+
+.info-button {
+    width: 260px;
+    height: 71px;
+    margin: 50px 0;
+    padding: 0;
+}
+.info-button-arrow {
+    margin-left: 16px;
+}
+
 
 /* feedbacks */
 .container-feedbacks {
