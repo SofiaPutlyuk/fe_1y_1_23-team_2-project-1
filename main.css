@@ -63,6 +63,25 @@ html {
 
 }
 
+.button-arrow-round {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 35px;
+    border: none;
+
+    margin-top: 20px;
+}
+
+.arrow {
+    height: 13px;
+    width: 6px;
+}
+
 .group2 {
     margin-left: 27px;
 }
@@ -563,28 +582,15 @@ footer ul li:nth-child(2) {
     margin-left: 21px;
 }
 
-.button-arrow-round {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
-    margin-left: 150px;
-    margin-top: 35px;
-    border: none;
 
-    margin-top: 20px;
-}
-
-.arrow {
-    height: 13.371439933776855px;
-    width: 5.942860126495361px;
-}
 
 .blog-text-and-button{
+    width: 360px;
+    height: 52px;
+
     display: flex;
 
+    justify-content: space-between;
     flex-direction: row;
 }
 
