@@ -297,7 +297,7 @@ html {
 }
 
 /* project */
-.project {
+.project-section {
     flex-direction: column;
     margin-top: 110px;
 }
@@ -344,6 +344,9 @@ html {
     line-height: 38px;
     letter-spacing: 0.22px;
     color: #292F36;
+}
+.project-card-filter{
+    color: #4d5053;
 }
 .project-button{
     margin: 0;
