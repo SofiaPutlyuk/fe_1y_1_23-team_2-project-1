@@ -452,7 +452,7 @@ footer ul li:nth-child(2) {
 }
 
 
-.blog-big-name{
+.main-title{
     width: 274px;
     height: 63px;
 
@@ -475,7 +475,7 @@ footer ul li:nth-child(2) {
     color: #292F36;
 }
 
-.blog-big-text{
+.main-subtitle{
     width: 589px;
     height: 33px;
 
