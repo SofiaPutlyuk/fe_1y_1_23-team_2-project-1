@@ -138,10 +138,8 @@ html {
     height: 475px;
     margin-top: 120px;
     background-color:  #F4F0EC;
-   
-  }
-  
-  .number-twelve {
+   }
+  .number {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,42 +151,13 @@ html {
     letter-spacing: 1.71px;
     text-align: center;
     color:#CDA274 ;
+  }
   
-  }
-  .text1 {
-    display: flex;
-    margin: 0 auto;
-    padding-top: 10px;
-    font-family: Jost;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 33px;
-    letter-spacing: 0.2199999988079071px;
-    text-align: center;
-    color: #4d5053;
-  }
   .dash1 {
     display: flex;
-   
-   
   }
-  .number-five {
-    font-family: DM Serif Display;
-    font-size: 85px;
-    font-weight: 400;
-    line-height: 128px;
-    letter-spacing: 1.7000000476837158px;
-    text-align: center;
-    color:#CDA274 ;
-    
-  }
-  .text2 {
-   
-    padding-top: 10px;
-    height: 33px;
-    width: 153px;
-    left: 57px;
-    top: 152px;
+
+ .text {
     font-family: "Jost";
     font-size: 22px;
     font-weight: 400;
@@ -197,54 +166,8 @@ html {
     text-align: center;
     color: #4d5053;
   }
-  .number-one {
-    display: flex;
-    font-family: DM Serif Display;
-    font-size: 85px;
-    font-weight: 400;
-    line-height: 128px;
-    letter-spacing: 1.7000000476837158px;
-    text-align: center;
-    color:#CDA274 ;
   
-  }
-  
-  .text3 {
-    
-    padding-top: 10px;
-    height: 33px;
-    width: 137px;
-    font-family: Jost;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 33px;
-    letter-spacing: 0.22px;
-    text-align: center;
-    color: #4d5053;
-  }
-  .number-four {
-  font-family: DM Serif Display;
-  font-size: 85px;
-  font-weight: 400;
-  line-height: 128px;
-  letter-spacing: 1.7000000476837158px;
-  text-align: center;
-  color:#CDA274 ;
-   
-  }
-  .text4 {
-    
-    padding-top: 10px;
-    font-family: Jost;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 33px;
-    letter-spacing: 0.22px;
-    text-align: center;
-    color: #4d5053;
-  }
-  
-.container {
+  .container {
     width: 1200px;
     margin: 0 auto;
 }
