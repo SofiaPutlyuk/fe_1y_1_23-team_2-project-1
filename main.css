@@ -253,7 +253,7 @@ html {
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
-    letter-spacing: 0.2199999988079071px;
+    letter-spacing: 0.21px;
     text-align: center;
   }
   .container1 {
@@ -272,13 +272,13 @@ html {
     display: flex;
     justify-content: center;
     height: 374px;
-    width: 393.359375px;
+    width: 393px;
   }
   .photo1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 120px;
+    
     margin-top: 30px;
     
   }
@@ -307,21 +307,21 @@ html {
     display: flex;
     margin-top: 30px;
     margin-left: 120px;
-    height: 17.999980926513672px;
-    width: 9.66797161102295px;
+    height: 18px;
+    width: 10px;
   }
   .twitter-icon {
     display: flex;
     margin-left: 40px;
-    height: 14.589824676513672px;
-    width: 17.964799880981445px;
+    height: 14px;
+    width: 18px;
     margin-top: 31px;
   }
   .in-icon {
     display: flex;
     margin-left: 40px;
-    height: 15.714824676513672px;
-    width: 15.75px;
+    height: 15px;
+    width: 16px;
     margin-top: 30px;
   }
   .instagram-icon {
@@ -330,8 +330,8 @@ html {
     align-items: center;
     margin: auto;
     margin-left: 40px;
-    height: 16.624977111816406px;
-    width: 16.6250057220459px;
+    height: 17px;
+    width: 17px;
     margin-top: 31px;
   }
     .container-for-footer {
@@ -355,7 +355,7 @@ html {
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
-    letter-spacing: 0.2199999988079071px;
+   
     text-align: center;
   }
   .text-flow {
@@ -367,7 +367,7 @@ html {
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
-    letter-spacing: 0.2199999988079071px;
+    
     text-align: center;
     color: #cda274;
   }
@@ -381,7 +381,7 @@ html {
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
-    letter-spacing: 0.2199999988079071px;
+    
     text-align: center;
     margin-left: 1px;
   }
@@ -394,7 +394,7 @@ html {
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
-    letter-spacing: 0.2199999988079071px;
+   
     text-align: center;
     color: #cda274;
   }
