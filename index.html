@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Static Template</title>
-  <link rel="stylesheet" href="reset.css" />
-  <link rel="stylesheet" href="main.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="main.css" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap" rel="stylesheet">
 </head>
-
-
 <body>
-  <div>
-    <header class="container header-con">
-      <div class="img">
-        <img src="/img/Vector.png" alt="logo">
-        <img src="/img/Vactor.png" alt="logo">
-      </div>
+    <div>
+      <header class="container header_con">
+        <div class="img">
+          <img src="header-img/header(1).png" alt="logo">
+          <img src="header-img/header(2).png" alt="logo">
+     </div>
       <nav class="nav">
         <ol class="ol">
           <li class="li">Home</li>
@@ -39,7 +38,9 @@
     Get Started
     <img src="grt2/Group 1.png" alt="group1" class="group1" />
   </button>
-  
+  <button class="button-arrow-round">
+    <img src="grt2/Vector (5).png" alt="arrow" class="arrow" />
+  </button>
   <button class="button-light">
     Connect With us
     <img src="grt2/Group 2.png" alt="group2" class="group2" />
@@ -71,25 +72,50 @@
       <p class="text4">Happy Customers</p>
     </div>
   </div>
+
   <section class="container services-section ">
     <article class="block-services">
       <h3 class="services-title">Interior Design</h3>
-      <p class="services-text">Enhancing the interior to achieve a healthier environment for the people using right space.</p>
-      <a class="services-link" href="">View More <img class="block-img" src="grt2/Group 1.png" alt="group1"/></a>
+      <p class="services-text">Enhancing the interior to achieve a healthier environment for the people using right
+        space.</p>
+      <a class="services-link" href="">View More <img class="block-img" src="grt2/Group 1.png" alt="group1" /></a>
     </article>
     <article class="block-services">
       <h3 class="services-title">Furniture</h3>
-      <p class="services-text">Movable articles that are used to make a room or building suitable for living or working.</p>
-      <a class="services-link" href="">View More <img class="block-img" src="grt2/Group 1.png" alt="group1"/></a>
+      <p class="services-text">Movable articles that are used to make a room or building suitable for living or working.
+      </p>
+      <a class="services-link" href="">View More <img class="block-img" src="grt2/Group 1.png" alt="group1" /></a>
     </article>
     <article class="block-services">
       <h3 class="services-title">Flooring</h3>
-      <p class="services-text">Thin object any finished material applied over a floor structure to provide a walking surface.</p>
-      <a class="services-link" href="">View More <img class="block-img" src="grt2/Group 1.png" alt="group1"/></a>
+      <p class="services-text">Thin object any finished material applied over a floor structure to provide a walking
+        surface.</p>
+      <a class="services-link" href="">View More <img class="block-img" src="grt2/Group 1.png" alt="group1" /></a>
     </article>
   </section>
 
 
+  <section class="info">
+    <div class=" container container-info">
+      <article class="info-text-section">
+        <h2 class="info-main-text">We Tackle The Most Challenging Designs</h2>
+        <p class="info-text">The world needs innovators and problem solvers who turn challenges into greater
+          opportunities. We have <br> an
+          insatiable curiosity about transformative trends challenging the status.</p>
+        <div class="info-contacts">
+          <button tel="012345678" class="info-tel"><img src="./grt2/tel.png" alt="tel"> </button>
+          <div class="info-contacts-item">
+            <p>012345678</p>
+            <p>Call Us Anytime</p>
+          </div>
+        </div>
+        <button class="button-dark  info-button">
+          <p class="info-button-text">Get Free Estimate</p>
+          <img class="info-button-arrow" src="./grt2/Group 1.png" alt="arrow">
+        </button>
+      </article>
+      <img class="img-info" src="./grt2/IMAGEsection-info.png" alt="info photo">
+  </section>
   <section class="container container-feedbacks">
     <h3 class="feedbacks-thinks">What the People Thinks <br>About Interno</h3>
     <div class="container-feedbacks-cards">
@@ -99,10 +125,11 @@
             <img src="./grt2/Lisa Clairton.png" alt="photo of Lisa">
             <div>
               <h3 class="feedbacks-card-name">Lisa Clairton</h3>
-              <p class="feedbacks-card-town" >New York, USA</p>
+              <p class="feedbacks-card-town">New York, USA</p>
             </div>
           </div>
-          <p class="feedbacks-card-coment">We selected Interno interior because of rigorous design background & education.
+          <p class="feedbacks-card-coment">We selected Interno interior because of rigorous design background &
+            education.
           </p>
 
         </div>
@@ -116,9 +143,10 @@
               <p class="feedbacks-card-town">Sydney, Australia</p>
             </div>
           </div>
-          <p class="feedbacks-card-coment">The team exceeded our expectations and emerged as leaders of our project’s.</p>
-
-
+          <p class="feedbacks-card-coment">The team exceeded our expectations and emerged as leaders of our project’s.
+          </p>
+          
+          
         </div>
       </article>
       <article class="feedbacks-card">
@@ -130,124 +158,115 @@
               <p class="feedbacks-card-town">Paris, France</p>
             </div>
           </div>
-          <p class="feedbacks-card-coment">They balanced the architectural vision and the project realities beautifully.</p>
+          <p class="feedbacks-card-coment">They balanced the architectural vision and the project realities beautifully.
+          </p>
         </div>
       </article>
     </div>
   </section>
+
   <div class=" container">
-  
-    <img src="grt2/Home-brand.png" alt="HomeBrand"/>
-  
-    <img src="grt2/Brand.png" alt="Brand"/>
-  
-    <img src="grt2/Vsbrand.png" alt="VsBrand"/>
-  
-    <img src="grt2/Naturebrand.png" alt="NatureBrand"/>
-  
-    <img src="grt2/Classicalbrand.png" alt="ClassicBrand"/>
+
+    <img src="grt2/Home-brand.png" alt="HomeBrand" />
+
+    <img src="grt2/Brand.png" alt="Brand" />
+
+    <img src="grt2/Vsbrand.png" alt="VsBrand" />
+
+    <img src="grt2/Naturebrand.png" alt="NatureBrand" />
+
+    <img src="grt2/Classicalbrand.png" alt="ClassicBrand" />
   </div>
   
-  <!--Blog-->
-
-  <main class="blog">
-    <div>
-      <h3 class="main-title">Recent Blogs</h3>
-      <p class="main-subtitle">Get updates about our latest trends and techniques used in interior design project works.</p>
-
-      <section class="blog-site">
-        <article class="blog-big">
-          <div class="blog-img-and-text">
-            <img src="blog-img/blog(1).png" alt="Kitchen Design 1" class="blog-img">
-
-          </div>
-          <h4 class="blog-text">Residential Interior Designer In New York, USA</h4>
-          <div class="blog-text-and-button">
-            <p class="blog-date">November 23, 2021</p>
-            <button class="button-arrow-round">
-              <img src="grt2/Vector (5).png" alt="arrow" class="arrow" />
-            </button>
-          </div>
-        </article>
-
-        <article class="blog-big">
-          <div>
-            <img src="blog-img/blog(2).png" alt="Living Room 1" class="blog-img">
-
-          </div>
-          <h4 class="blog-text">How To Choose The Best Wall Art & Decor House?</h4>
-          <div class="blog-text-and-button">
-            <p class="blog-date">November 23, 2021</p>
-            <button class="button-arrow-round">
-              <img src="grt2/Vector (5).png" alt="arrow" class="arrow" />
-            </button>
-          </div>
-        </article>
-
-        <article class="blog-big">
-          <div>
-            <img src="blog-img/blog(3).png" alt="Living Room 1" class="blog-img">
-
-          </div>
-          <h4 class="blog-text">Tips To Increase The Interior Value Of Your House</h4>
-          <div class="blog-text-and-button">
-            <p class="blog-date">November 23, 2021</p>
-            <button class="button-arrow-round">
-              <img src="grt2/Vector (5).png" alt="arrow" class="arrow" />
-            </button>
-          </div>
-        </article>
-      </section>
-
-      <div class="blog-site">
-        <article class="blog-big">
-          <div>
-            <img src="blog-img/blog(4).png" alt="Kitchen Design 2" class="blog-img">
-
-          </div>
-          <h4 class="blog-text">Best Solution For Any Office & Business Interior</h4>
-          <div class="blog-text-and-button">
-          <p class="blog-date">November 23, 2021</p>
-          <button class="button-arrow-round">
-            <img src="grt2/Vector (5).png" alt="arrow" class="arrow" />
-          </button>
-          </div>
-        </article>
-
-        <article class="blog-big">
-          <div>
-            <img src="blog-img/blog(5).png" alt="Living Room 2" class="blog-img">
-             
-          </div>
-          <h4 class="blog-text">Get Solution For Building Construction Work</h4>
-          <div class="blog-text-and-button">
-            <p class="blog-date">November 23, 2021</p>
-            <button class="button-arrow-round">
-              <img src="grt2/Vector (5).png" alt="arrow" class="arrow" />
-            </button>
-          </div>
-        </article>
-
-        <article class="blog-big">
-          <div>
-            <img src="blog-img/blog(6).png" alt="Minimalist Interior 2" class="blog-img">
-              
-          </div>
-          <h4 class="blog-text">Attain The Best Finish For The Kitchen Cabinets</h4>
-          <div class="blog-text-and-button">
-            <p class="blog-date">November 23, 2021</p>
-            <button class="button-arrow-round">
-              <img src="grt2/Vector (5).png" alt="arrow" class="arrow" />
-            </button>
-          </div>  
-        </article>
-      </div>
-    </div>
-  </main>
-
   
 
 
+  <section class="container project-section">
+    <h2 class="project-main-text">Recent Projects</h2>
+    <p class="project-text">With tools to make every part of your process more human and a support team <br> excited to
+      help you, getting started with us never been easier.</p>
+    <div class="project-card-container">
+      <article class="project-card">
+        <img src="./grt2/projects-tree.png" alt="project photo">
+        <div class="project-card-menu">
+          <div class="project-card-text">
+            <h3 class="project-card-name">Winery Dry Creek Building</h3>
+            <p class="project-card-filter">Art Modern</p>
+          </div>
+          <button class="button-arrow-round project-button">
+            <img src="grt2/Vector (5).png" alt="arrow" class="arrow" />
+          </button>
+        </div>
+      </article>
+      <article class="project-card">
+        <img src="./grt2/project-table.png" alt="project photo">
+        <div class="project-card-menu">
+          <div class="project-card-text">
+            <h3 class="project-card-name">Creative Workplace Design</h3>
+            <p class="project-card-filter">Minimalist</p>
+          </div>
+          <button class="button-arrow-round project-button">
+            <img src="grt2/Vector (5).png" alt="arrow" class="arrow" />
+          </button>
+        </div>
+      </article>
+      <article class="project-card">
+        <img src="./grt2/project-bedroom.png" alt="project photo">
+        <div class="project-card-menu">
+          <div class="project-card-text">
+            <h3 class="project-card-name">Bedroom Interior Pot Work</h3>
+            <p class="project-card-filter">Modern</p>
+          </div>
+          <button class="button-arrow-round project-button">
+            <img src="grt2/Vector (5).png" alt="arrow" class="arrow" />
+          </button>
+        </div>
+      </article>
+      <article class="project-card">
+        <img src="./grt2/project-sepia.png" alt="project photo">
+        <div class="project-card-menu">
+          <div class="project-card-text">
+            <h3 class="project-card-name">Light Ambience Sepia Design</h3>
+            <p class="project-card-filter">Scandinavian</p>
+          </div>
+          <button class="button-arrow-round project-button">
+            <img src="grt2/Vector (5).png" alt="arrow" class="arrow" />
+          </button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <div class="wrapper">
+    <section class="container">
+      <div>
+
+        <p class="number">12</p>
+        <p class="text">Years Of Experiance</p>
+      </div>
+      <div>
+        <img src="grt2/Rectangle (7).png" alt="dash1" class="dash1" />
+      </div>
+      <div>
+        <p class="number">5K</p>
+        <p class="text">Success Project</p>
+      </div>
+      <div>
+        <img src="grt2/Rectangle (7).png" alt="dash1" class="dash1" />
+      </div>
+      <div>
+        <p class="number">1K</p>
+        <p class="text">Active Project</p>
+      </div>
+      <div>
+        <img src="grt2/Rectangle (7).png" alt="dash1" class="dash1" />
+      </div>
+      <div>
+        <p class="number">4K</p>
+        <p class="text">Happy Customers</p>
+      </div>
+    </section>
+  </div>
 
   <footer class="">
     <div class="container">
@@ -281,6 +300,7 @@
         <li>contact@interno.com</li>
         <li>(123) 456 - 7890</li>
       </ul>
+
 
     </div>
   </footer>
