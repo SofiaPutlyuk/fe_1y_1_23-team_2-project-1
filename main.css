@@ -264,13 +264,13 @@ html {
   .photo1 {
     display: flex;
     justify-content: center;
-    margin-left: 120px;
     margin-top: 130px;
   }
 
   .container-for-interno {
     display: flex;
-    justify-content: center;
+   justify-content: center;
+   align-items: flex-start;
     height: 374px;
     width: 393px;
   }
@@ -285,7 +285,6 @@ html {
   
   .text-architect {
     display: flex;
-    margin-left: 120px;
     height: 66px;
     width: 326px;
     font-family: Jost;
@@ -306,7 +305,7 @@ html {
   .facebook-icon {
     display: flex;
     margin-top: 30px;
-    margin-left: 120px;
+   
     height: 18px;
     width: 10px;
   }
@@ -334,23 +333,25 @@ html {
     width: 17px;
     margin-top: 31px;
   }
+  .line {
+  color: #E5E5E5;
+ height: 1px;
+ margin-top: 110px;
+  }
     .container-for-footer {
      display: flex;
-     width: 1440px;
+    margin: 0 auto;
     }  
     .container-for-text {
         display: flex;
         padding-bottom: 36px;
+
     }
   
   .text-copyright {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 310px;
-    margin-left: 325px;
-    height: 33px;
-    width: 353px;
     font-family: Jost;
     font-size: 22px;
     font-weight: 400;
@@ -360,24 +361,20 @@ html {
   }
   .text-flow {
     display: flex;
-   margin-top: 310px;
-    height: 33px;
-    width: 101px;
-    font-family: Jost;
+    margin-right: 8px;
+  font-family: Jost;
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
-    
+    margin-left: 8px;
     text-align: center;
     color: #cda274;
   }
 
   .text-templates {
     display: flex;
-    margin-top: 310px;
-    height: 33px;
-    width: 248px;
-    font-family: Jost;
+    margin-right: 8px;
+   font-family: Jost;
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
@@ -387,9 +384,6 @@ html {
   }
   .text-web {
     display: flex;
-    margin-top: 310px;
-    height: 33px;
-    width: 87px;
     font-family: Jost;
     font-size: 22px;
     font-weight: 400;
