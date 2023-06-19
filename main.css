@@ -205,7 +205,210 @@ html {
     letter-spacing: 0.22px;
     text-align: center;
     color: #4d5053;
+  }
+.container-for-wanna{
+    display: flex;
+    width: 1200px;
+    height: 414px;
+    background-color: #292f36;
+    margin:0 auto;
+    margin-top: 148px;
+    margin-bottom: 129px;
+    border-radius: 70px;
 }
+.title-wanna {
+    display: flex;
+   margin-left: 333px;
+    justify-content: center;
+    align-items: center;
+    font-family: DM Serif Display;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 100px;
+}
+.text-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 371px;
+    margin-left: 415px ;
+   color: #FFFFFF;
+    padding-bottom: 31px;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    text-align: center;
+    padding-top: 9px;
+    
+  }
+  .button-light-wanna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 241px;
+    height: 71px;
+    background: #cda274;
+    margin-left: 474px;
+    border-radius: 2px solid;
+    border: none;
+    box-shadow: 1px 0px 18px 0px #00000033;
+    border-radius: 18px;
+  }
+  .text-buttonlight-wanna {
+    color: white;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.21px;
+    text-align: center;
+  }
+  .container1 {
+    display: flex;
+    height: 374px;
+    width: 393.359375px;
+  }
+  .photo1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+  }
+
+  .container-for-interno {
+    display: flex;
+   justify-content: center;
+   align-items: flex-start;
+    height: 374px;
+    width: 393px;
+  }
+  .photo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 30px;
+    
+  }
+  
+  .text-architect {
+    display: flex;
+    height: 66px;
+    width: 326px;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    text-align: left;
+  }
+  .container-for-icon {
+    display: flex;
+  
+    height: 53px;
+    width: 333px;
+    padding-top: 10px;
+    top: 141px;
+  }
+  .facebook-icon {
+    display: flex;
+    margin-top: 30px;
+   
+    height: 18px;
+    width: 10px;
+  }
+  .twitter-icon {
+    display: flex;
+    margin-left: 40px;
+    height: 14px;
+    width: 18px;
+    margin-top: 31px;
+  }
+  .in-icon {
+    display: flex;
+    margin-left: 40px;
+    height: 15px;
+    width: 16px;
+    margin-top: 30px;
+  }
+  .instagram-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 40px;
+    height: 17px;
+    width: 17px;
+    margin-top: 31px;
+  }
+  .line {
+  color: #E5E5E5;
+ height: 1px;
+ margin-top: 110px;
+  }
+    .container-for-footer {
+     display: flex;
+    margin: 0 auto;
+    }  
+    .container-for-text {
+        display: flex;
+        padding-bottom: 36px;
+
+    }
+  
+  .text-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+   
+    text-align: center;
+  }
+  .text-flow {
+    display: flex;
+    margin-right: 8px;
+  font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-left: 8px;
+    text-align: center;
+    color: #cda274;
+  }
+
+  .text-templates {
+    display: flex;
+    margin-right: 8px;
+   font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    
+    text-align: center;
+    margin-left: 1px;
+  }
+  .text-web {
+    display: flex;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+   
+    text-align: center;
+    color: #cda274;
+  }
+  
+
+
+
 
 .container {
     width: 1200px;
@@ -454,6 +657,7 @@ html {
 footer .container {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .footer-filter {
