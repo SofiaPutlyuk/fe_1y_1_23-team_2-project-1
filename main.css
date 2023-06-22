@@ -7,17 +7,19 @@ html {
     box-sizing: border-box;
     font-weight: 400;
 }
-.hiden{
+
+.hiden {
     display: none;
 }
+
 /*Banner*/
-.banner-big-box{
+.banner-big-box {
     width: 100%;
     height: 831px;
-    
+
     padding-left: 120px;
     padding-top: 195px;
-    
+
 
     background-image: url(assets/banner-img/banner.png);
     background-size: cover;
@@ -25,7 +27,7 @@ html {
     border-radius: 0px 0px 0px 290px;
 }
 
-.banner-name{
+.banner-name {
     width: 595px;
 
     font-family: 'DM Serif Display', sans-serif;
@@ -39,7 +41,7 @@ html {
     color: #292F36;
 }
 
-.banner-text{
+.banner-text {
     width: 577px;
 
     margin-top: 19px;
@@ -50,12 +52,12 @@ html {
     font-weight: 400;
     font-size: 22px;
     line-height: 33px;
-    
+
     letter-spacing: 0.22px;
-    
+
     color: #4D5053;
 }
- 
+
 
 .button-dark {
     display: flex;
@@ -64,7 +66,7 @@ html {
     width: 207px;
     height: 71px;
 
-    background-color:  #292F36;
+    background-color: #292F36;
     margin-left: 120px;
     margin-top: 35px;
     background-color: #292F36;
@@ -140,27 +142,28 @@ html {
     justify-content: space-between;
     height: 475px;
     margin-top: 120px;
-    background-color:  #F4F0EC;
-   }
-  .number {
+    background-color: #F4F0EC;
+}
+
+.number {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0  auto;
+    margin: 0 auto;
     font-family: DM Serif Display;
     font-size: 85px;
     font-weight: 400;
     line-height: 128px;
     letter-spacing: 1.71px;
     text-align: center;
-    color:#CDA274 ;
-  }
-  
-  .dash1 {
-    display: flex;
-  }
+    color: #CDA274;
+}
 
- .text {
+.dash1 {
+    display: flex;
+}
+
+.text {
     font-family: "Jost";
     font-size: 22px;
     font-weight: 400;
@@ -168,12 +171,12 @@ html {
     letter-spacing: 0.22px;
     text-align: center;
     color: #4d5053;
-  }
-  
-  
-  
-  .text3 {
-    
+}
+
+
+
+.text3 {
+
     padding-top: 10px;
     height: 33px;
     width: 137px;
@@ -184,19 +187,21 @@ html {
     letter-spacing: 0.22px;
     text-align: center;
     color: #4d5053;
-  }
-  .number-four {
-  font-family: DM Serif Display;
-  font-size: 85px;
-  font-weight: 400;
-  line-height: 128px;
-  letter-spacing: 1.7000000476837158px;
-  text-align: center;
-  color:#CDA274 ;
-   
-  }
-  .text4 {
-    
+}
+
+.number-four {
+    font-family: DM Serif Display;
+    font-size: 85px;
+    font-weight: 400;
+    line-height: 128px;
+    letter-spacing: 1.7000000476837158px;
+    text-align: center;
+    color: #CDA274;
+
+}
+
+.text4 {
+
     padding-top: 10px;
     font-family: Jost;
     font-size: 22px;
@@ -207,14 +212,234 @@ html {
     color: #4d5053;
 }
 
+.container-for-wanna {
+    display: flex;
+    width: 1200px;
+    height: 414px;
+    background-color: #292f36;
+    margin: 0 auto;
+    margin-top: 148px;
+    margin-bottom: 129px;
+    border-radius: 70px;
+}
+
+.title-wanna {
+    display: flex;
+    margin-left: 333px;
+    justify-content: center;
+    align-items: center;
+    font-family: DM Serif Display;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.text-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 371px;
+    margin-left: 415px;
+    color: #FFFFFF;
+    padding-bottom: 31px;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    text-align: center;
+    padding-top: 9px;
+
+}
+
+.button-light-wanna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 241px;
+    height: 71px;
+    background: #cda274;
+    margin-left: 474px;
+    border-radius: 2px solid;
+    border: none;
+    box-shadow: 1px 0px 18px 0px #00000033;
+    border-radius: 18px;
+}
+
+.text-buttonlight-wanna {
+    color: white;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.21px;
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    height: 374px;
+    width: 393.359375px;
+}
+
+.photo1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.container-for-interno {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 374px;
+    width: 393px;
+}
+
+.photo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+
+}
+
+.text-architect {
+    display: flex;
+    height: 66px;
+    width: 326px;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    text-align: left;
+}
+
+.container-for-icon {
+    display: flex;
+
+    height: 53px;
+    width: 333px;
+    padding-top: 10px;
+    top: 141px;
+}
+
+.facebook-icon {
+    display: flex;
+    margin-top: 30px;
+
+    height: 18px;
+    width: 10px;
+}
+
+.twitter-icon {
+    display: flex;
+    margin-left: 40px;
+    height: 14px;
+    width: 18px;
+    margin-top: 31px;
+}
+
+.in-icon {
+    display: flex;
+    margin-left: 40px;
+    height: 15px;
+    width: 16px;
+    margin-top: 30px;
+}
+
+.instagram-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 40px;
+    height: 17px;
+    width: 17px;
+    margin-top: 31px;
+}
+
+.line {
+    color: #E5E5E5;
+    height: 1px;
+    margin-top: 110px;
+}
+
+.container-for-footer {
+    display: flex;
+    margin: 0 auto;
+}
+
+.container-for-text {
+    display: flex;
+    padding-bottom: 36px;
+
+}
+
+.text-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+
+    text-align: center;
+}
+
+.text-flow {
+    display: flex;
+    margin-right: 8px;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-left: 8px;
+    text-align: center;
+    color: #cda274;
+}
+
+.text-templates {
+    display: flex;
+    margin-right: 8px;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+
+    text-align: center;
+    margin-left: 1px;
+}
+
+.text-web {
+    display: flex;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+
+    text-align: center;
+    color: #cda274;
+}
+
+
+
+
 .container {
     width: 1200px;
     margin: 0 auto;
 }
 
 .header-con {
-    margin-top: 50px;
-
+    margin-top: 38px;
+    margin-bottom: 38px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -309,6 +534,7 @@ html {
     margin: 50px 0;
     padding: 0;
 }
+
 .info-button-arrow {
     margin-left: 16px;
 }
@@ -322,6 +548,7 @@ html {
     flex-direction: column;
     align-items: center;
     margin-top: 140px;
+    margin-bottom: 120px;
 }
 
 .feedbacks-thinks {
@@ -443,17 +670,21 @@ html {
     letter-spacing: 0.22px;
     color: #292F36;
 }
-.project-card-filter{
+
+.project-card-filter {
     color: #4d5053;
 }
-.project-button{
+
+.project-button {
     margin: 0;
     background: #F4F0EC;
 }
+
 /* footer */
 footer .container {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .footer-filter {
@@ -485,9 +716,10 @@ footer ul li:nth-child(2) {
 
 /* service */
 .services-section {
-    padding-top: 175px;
-    padding-bottom: 203px;
-
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 75px;
+    padding-bottom: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -543,80 +775,21 @@ footer ul li:nth-child(2) {
     width: 10px;
 }
 
-/* service */
-.services-section {
-    padding-top: 175px;
-    padding-bottom: 203px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.block-services {
-    width: 299px;
-
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-}
-
-.services-title {
-    font-family: 'DM Serif Display', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 39px;
-
-    letter-spacing: 0.22px;
-    color: #292F36;
-}
-
-.services-text {
-    padding-top: 17px;
-    padding-bottom: 68px;
-
-    font-family: 'Jost', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 33px;
-
-    letter-spacing: 0.22px;
-    color: #4D5053;
-}
-
-.services-link {
-    text-decoration: none;
-    font-family: 'Jost', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-
-    letter-spacing: 0.36px;
-    color: #4D5053;
-}
-
-.block-img {
-    width: 10px;
-}
 
 /*BLOG*/
 
-.blog{
+.blog {
     width: 100%;
     height: 1344px;
 
     display: flex;
 
     justify-content: center;
-
+margin-top: 120px;
 }
 
 
-.main-title{
+.main-title {
     width: 274px;
     height: 63px;
 
@@ -628,7 +801,7 @@ footer ul li:nth-child(2) {
 
     text-align: center;
     letter-spacing: 0.22px;
-    
+
     display: flex;
 
     justify-content: center;
@@ -639,7 +812,7 @@ footer ul li:nth-child(2) {
     color: #292F36;
 }
 
-.main-subtitle{
+.main-subtitle {
     width: 589px;
     height: 33px;
 
@@ -665,7 +838,7 @@ footer ul li:nth-child(2) {
 }
 
 
-.blog-img{
+.blog-img {
     width: 345px;
     height: 296px;
 
@@ -674,7 +847,7 @@ footer ul li:nth-child(2) {
     border-radius: 45px 45px 0px 0px;
 }
 
-.blog-big{
+.blog-big {
     box-sizing: border-box;
 
     width: 387px;
@@ -686,7 +859,7 @@ footer ul li:nth-child(2) {
     margin-right: 20px;
 }
 
-.blog-text{
+.blog-text {
     width: 338px;
     height: 70px;
 
@@ -704,17 +877,17 @@ footer ul li:nth-child(2) {
     margin-left: 21px;
 }
 
-.blog-date{
+.blog-date {
     height: 24px;
-    
+
     font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    
+
     letter-spacing: 0.22px;
-    
+
     color: #4D5053;
 
     margin-top: 34px;
@@ -723,7 +896,7 @@ footer ul li:nth-child(2) {
 
 
 
-.blog-text-and-button{
+.blog-text-and-button {
     width: 360px;
     height: 52px;
 
@@ -732,12 +905,12 @@ footer ul li:nth-child(2) {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-}    
+}
 
-.blog-site{
+.blog-site {
     display: flex;
 
-    justify-content: space-between;  
-    
+    justify-content: space-between;
+
     margin-bottom: 40px;
 }
